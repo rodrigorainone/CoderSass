@@ -34,7 +34,7 @@
     }
     .promo {
         grid-area:promo;
-        background-color: #C2E4EC;
+        background-color: $colorCeles;
         text-align: center;
         position: fixed;
         left:0;
@@ -69,7 +69,7 @@
     
     
     .ulPrin{
-        background-color: #C2E4EC;              
+        background-color: $colorCeles;              
         list-style: none;                    
         width: 100%; 
         position:fixed;
@@ -245,7 +245,7 @@
         
     }
     .colorPhone {
-        color: #F7C4D5;
+        color: $colorRosa;
         font-weight: bold;
     
     }
@@ -272,7 +272,7 @@
             color:white;
         text-decoration: none;
            &:hover {
-            color:#C2E4EC;
+            color:$colorCeles;
             text-decoration: none;
            }
         }

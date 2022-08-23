@@ -28,7 +28,7 @@
        }
       .promo {
        grid-area: promo;
-       background-color: #C2E4EC;
+       background-color: $colorCeles;
        text-align: center;
        padding-top: 12px;
        font-weight: bold;
@@ -73,7 +73,7 @@
                            text-decoration: none; 
                       }
                     &:hover {
-                                 background-color: #C2E4EC;
+                                 background-color: $colorCeles;
                                      transform: scale(1.1);
                                      transition: all 0.3s;
                                      box-shadow: 0px 0px 10px 0px rgba(0, 0, 0,0.5);
@@ -181,7 +181,7 @@
     }
              /* footer  tablet */
        .colorPhone {
-           color: #F7C4D5;
+           color: $colorRosa;
            font-weight: bold;        
            }
        #mostrarMenuMedios,.mostrarMenuMediosMod ,#mostrarMenuSeguinos ,.mostrarMenuSeguinosMod,#mostrarMenuInformar,.mostrarMenuInformarMod,#mostrarMenuNosotros ,.mostrarMenuNosotrosMod,#mostrarMenuAyudarte,.mostrarMenuAyudarteMod {
@@ -243,7 +243,7 @@
                         color: white;
                         text-decoration: none;
                         &:hover {
-                            color:#C2E4EC;
+                            color:$colorCeles;
                         }
                     }
                 }
